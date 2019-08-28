@@ -1,8 +1,15 @@
-name: FloodRisk
+name: ClimatePolicy
 
 dependencies:
         - python=3.6
         - numpy
         - pandas
+        - geopandas
         - rasterio
+        - xarray
+        - scipy
+        - sklearn
+        - matplotlib
+        - cartopy
+        - seaborn
         - jupyter
