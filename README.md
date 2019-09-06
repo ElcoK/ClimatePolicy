@@ -8,7 +8,7 @@ The assignments should be made individually.
 
 # How to get the assignments up and running:
 
-Go the repository on Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ElcoK/ClimatePolicy/master)
+Go the repository on Binder:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ElcoK/ClimatePolicy/master)
 
 Or download this repository and install a virtual environment. Recommended option is to use a [miniconda](https://conda.io/miniconda.html)
 environment to work in for this project, relying on conda to handle some of the
