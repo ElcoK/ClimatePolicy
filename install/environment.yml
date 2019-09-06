@@ -13,3 +13,5 @@ dependencies:
         - cartopy
         - seaborn
         - jupyter
+        - salib
+        - tqdm
