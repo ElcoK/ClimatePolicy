@@ -1,0 +1,14 @@
+python==3.6
+numpy
+pandas
+geopandas
+rasterio
+xarray
+scipy
+scikit-learn
+matplotlib
+cartopy
+seaborn
+tqdm
+salib
+xlrd
