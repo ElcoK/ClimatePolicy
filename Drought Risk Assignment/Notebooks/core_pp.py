@@ -112,11 +112,7 @@ def import_ds_lazy(filename, input_freq='daily', loadleap=False, seldates=None, 
         dates = [d.replace(day=1,hour=0) for d in pd.to_datetime(dates)]
    else:
        dates = pd.to_datetime(dates)
-       stepsyr = dates.where(dates.year == dates.year[0]).dropna(how='all')
-       test_if_fullyr = np.logical_and(dates[stepsyr.size-1].month == 12,
-                                   dates[stepsyr.size-1].day == 31)
-       assert test_if_fullyr, ('full is needed as raw data since rolling'
-                           ' mean is applied across timesteps')
+
 
    dates = pd.to_datetime(dates)
    # set hour to 00
