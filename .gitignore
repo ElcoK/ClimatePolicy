@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# added manually by Sem
+.DS_Store
+Drought Risk Assignment/Answers/
