@@ -1,6 +1,6 @@
 # Climate Impacts & Policy Assignments
 
-The  purpose  of  the  assignments  is  that  students  learn  to  apply  the  methods  for  assessing  climate change  impacts  that  are  introduced  in  weeks  2  up  to  5,  and  learn  how  to  interpret  the  results  of these analyses. There are 5 assignments that each count for 10% of the grade. 
+The  purpose  of  the  assignments  is  that  students  learn  to  apply  the  methods  for  assessing  climate change  impacts  that  are  introduced  in  weeks  2  up  to  6,  and  learn  how  to  interpret  the  results  of these analyses. There are 5 assignments that each count for 10% of the grade. 
 
 In this repository, you will find the assignments for Week 2,3 and 5.
 
