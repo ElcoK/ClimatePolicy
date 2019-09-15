@@ -8,6 +8,7 @@ dependencies:
         - rasterio
         - xarray
         - scipy
+        - netCDF4
         - scikit-learn
         - matplotlib
         - cartopy
