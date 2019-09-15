@@ -4,9 +4,9 @@ import numpy as np
 
 data_path= '..'
 
-def run_model(disruption,RECON_CURVE,Tinv,Tmax,direct_damages):
+def run_model(disruption,RECON_CURVE,Tinv,Tmax):
      
-    IO_TABLE = pd.read_csv(os.path.join(data_path,'economic_data','Rijnmond_IO.csv'),index_col=[0],header=[0])
+    IO_TABLE = pd.read_csv(os.path.join(data_path,'data','Rijnmond_IO.csv'),index_col=[0],header=[0])
      
     ### Set base parameters
     SECTORS = list(IO_TABLE[:25].index.get_level_values(0).unique())
@@ -151,9 +151,8 @@ def run_model(disruption,RECON_CURVE,Tinv,Tmax,direct_damages):
     ############################################
     
     for iter_,sector in enumerate(SECTORS):
-        if sector in (direct_damages).keys():
-            Damage[5,iter_] =  1e-5 #(direct_damages[sector])*0.75 # share construction sector
-            Damage[6,iter_] =  1e-5 #(direct_damages[sector])*0.25 # share retail sector
+        Damage[5,iter_] =  1e-5 #(direct_damages[sector])*0.75 # share construction sector
+        Damage[6,iter_] =  1e-5 #(direct_damages[sector])*0.25 # share retail sector
     
     for i in range(N+1):
         for j in range(N):
@@ -353,4 +352,4 @@ def run_model(disruption,RECON_CURVE,Tinv,Tmax,direct_damages):
     
     VA_SUM = [int(sum(VA[:,i]))/1e3 for i in range(Tmax)] #in billions
     
-    return IND_DAM,IND_DAM_ALL
+    return IND_DAM,IND_DAM_ALL,VA_SUM
