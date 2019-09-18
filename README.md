@@ -10,7 +10,7 @@ The assignments should be made individually.
 
 Go the repository on Binder:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ElcoK/ClimatePolicy/master)
 
-For Drought pacticum, go to: https://mybinder.org/v2/gh/semvijverberg/ClimatePolicy/master
+For Drought pacticum, go to: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/semvijverberg/ClimatePolicy/master)
 Or download this repository and install a virtual environment. Recommended option is to use a [miniconda](https://conda.io/miniconda.html)
 environment to work in for this project, relying on conda to handle some of the
 trickier library dependencies:
