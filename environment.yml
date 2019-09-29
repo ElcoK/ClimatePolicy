@@ -16,3 +16,4 @@ dependencies:
         - salib
         - tqdm
         - xlrd
+        - netCDF4
