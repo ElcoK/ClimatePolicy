@@ -6,7 +6,7 @@ data_path= '..'
 
 def run_model(disruption,RECON_CURVE,Tinv,Tmax):
      
-    IO_TABLE = pd.read_csv(os.path.join(data_path,'data','Rijnmond_IO.csv'),index_col=[0],header=[0])
+    IO_TABLE = pd.read_csv(os.path.join(data_path,'Data','Rijnmond_IO.csv'),index_col=[0],header=[0])
      
     ### Set base parameters
     SECTORS = list(IO_TABLE[:25].index.get_level_values(0).unique())
